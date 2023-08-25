@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/splash_background"
+        tools:context=".MainActivity">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/back_btn"
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:padding="8dp"
+                    android:src="@drawable/backbtn" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/back_btn"
+                    android:gravity="center_vertical"
+                    android:text="Permission Needed"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+        <LinearLayout
+            android:id="@+id/adsView0"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_below="@+id/toolbar"
+            android:elevation="10dp"
+            android:background="@android:color/transparent"
+            android:gravity="bottom"
+            android:layout_marginBottom="3dp"
+            android:orientation="horizontal"
+            android:paddingHorizontal="5dp"
+            android:paddingVertical="5dp" />
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/keyboard"
+            android:layout_below="@+id/adsView0"
+            android:layout_centerHorizontal="true"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/titleKeyboardTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_centerInParent="true"
+            android:padding="8dp"
+            android:text="Enable Neon Keyboard"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/settingsTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_below="@+id/titleKeyboardTv"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:text="@string/pleaseCheckSettings"
+            android:textAppearance="@style/pleaseCheckSettingsStyle"
+            android:textColor="@color/white" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/enableKeyboardBtn"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="2dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/settingsTv"
+            android:background="@drawable/sel_dialog_ios"
+            app:backgroundTint="@null"
+            android:text="Enable Keyboard"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:textColor="@color/white" />
+
+
+
+    </RelativeLayout>
+</layout>

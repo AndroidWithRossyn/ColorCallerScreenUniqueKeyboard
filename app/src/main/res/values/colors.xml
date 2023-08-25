@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#D53ECA</color>
+    <color name="purple_500">#D53ECA</color>
+    <color name="purple_700">#D53ECA</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="screenBgColor">#ECECEC</color>
+    <color name="testColor">#1AFFFFFF</color>
+    <color name="testColorBlack">#80FFFFFF</color>
+    <color name="testColorBlue">#221F1F</color>
+    <color name="nightModeTextColor">#E6E3E3</color>
+    <color name="lightModeTextColor">#000000</color>
+    <color name="screenLightModeTextColor">#ECECEC</color>
+    <color name="screenDarkModeTextColor">#000000</color>
+    <color name="nativeAdLightModeTextColor">#000000</color>
+    <color name="nativeAdDarkModeTextColor">#000000</color>
+    <color name="ratingUnselected">#605F5F</color>
+    <color name="UnselectedIconColorNight">#999999</color>
+    <color name="adColor">#FE8F00</color>
+    <color name="app_color">#A8189E</color>
+    <color name="gray">#D2D2D2</color>
+    <color name="placeholder_bg">#dddddd</color>
+
+
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#939393</color>
+    <color name="bg_load_ads">#a3e6e6e6</color>
+    <color name="c_default">#939393</color>
+    <color name="c_red">#fe373a</color>
+    <color name="c_selected">#1576fb</color>
+    <color name="colorNavi">#f7f7f7</color>
+    <color name="colorNavi_dark">#141414</color>
+    <color name="color_divider">#c3c3c3</color>
+    <color name="color_divider_dark">#252525</color>
+    <color name="color_gray">#838287</color>
+    <color name="divider">#e6e6e6</color>
+    <color name="duskYellow">#bababa</color>
+    <color name="gnt_ad_green">#3a6728</color>
+    <color name="gnt_black">#000000</color>
+    <color name="gnt_blue">#4285f4</color>
+    <color name="gnt_gray">#808080</color>
+    <color name="gnt_green">#00ff00</color>
+    <color name="gnt_outline">#e0e0e0</color>
+    <color name="gnt_red">#ff0000</color>
+    <color name="gnt_test_background_color">#00f4f4f4</color>
+    <color name="gnt_test_background_color_2">#00a3a3a3</color>
+    <color name="gnt_white">#ffffff</color>
+    <color name="ic_launcher_background">#55174f</color>
+    <color name="lightGrey">#29bad3</color>
+
+    <color name="my_theme">#FFFFFF</color>
+    <color name="red">#D81406</color>
+    <color name="feature_on_color">#B80730</color>
+    <color name="darkGrey">#272626</color>
+    <color name="light_grey">#888888</color>
+    <color name="green">#6EFD74</color>
+</resources>

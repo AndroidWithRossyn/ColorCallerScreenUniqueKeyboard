@@ -1,0 +1,8 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_title"
+    style="@style/MenuItemStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="16dp"
+    android:padding="10dp"
+    android:text="SET WALLPAPER" />

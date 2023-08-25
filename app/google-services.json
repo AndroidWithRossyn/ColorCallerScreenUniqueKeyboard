@@ -1,0 +1,156 @@
+{
+  "project_info": {
+    "project_number": "394523700746",
+    "firebase_url": "https://colorcallerscreen-199e2-default-rtdb.firebaseio.com",
+    "project_id": "colorcallerscreen-199e2",
+    "storage_bucket": "colorcallerscreen-199e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394523700746:android:fad88098a016242587f9f3",
+        "android_client_info": {
+          "package_name": "com.charging.funanimated.battery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394523700746-5qpdjh697a5kbv71n6vdpgiiqbg2747d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6zDFS7SrM1qHH_XRfONFXuCXPdF9srts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394523700746-5qpdjh697a5kbv71n6vdpgiiqbg2747d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394523700746:android:5fd254ecf7e5287087f9f3",
+        "android_client_info": {
+          "package_name": "com.enchantressphonetheme.callerscreen.call"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394523700746-5qpdjh697a5kbv71n6vdpgiiqbg2747d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6zDFS7SrM1qHH_XRfONFXuCXPdF9srts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394523700746-5qpdjh697a5kbv71n6vdpgiiqbg2747d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394523700746:android:7ac20791ef4ccf9787f9f3",
+        "android_client_info": {
+          "package_name": "com.tandt.callerscreen.colorscreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394523700746-5qpdjh697a5kbv71n6vdpgiiqbg2747d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6zDFS7SrM1qHH_XRfONFXuCXPdF9srts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394523700746-5qpdjh697a5kbv71n6vdpgiiqbg2747d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394523700746:android:64dd2fcd8702ff5887f9f3",
+        "android_client_info": {
+          "package_name": "com.uprisingscallscreen.theme.flashscreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394523700746-5qpdjh697a5kbv71n6vdpgiiqbg2747d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6zDFS7SrM1qHH_XRfONFXuCXPdF9srts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394523700746-5qpdjh697a5kbv71n6vdpgiiqbg2747d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394523700746:android:9ba8e06b8bb7067787f9f3",
+        "android_client_info": {
+          "package_name": "com.videosaver.statussaver.wastickerschat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394523700746-5qpdjh697a5kbv71n6vdpgiiqbg2747d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6zDFS7SrM1qHH_XRfONFXuCXPdF9srts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394523700746-5qpdjh697a5kbv71n6vdpgiiqbg2747d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

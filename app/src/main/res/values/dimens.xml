@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<resources>
+
+    <dimen name="placeholder_image">50dp</dimen>
+    <dimen name="placeholder_text_height">8dp</dimen>
+    <dimen name="_10dp">10dp</dimen>
+    <dimen name="_15dp">15dp</dimen>
+    <dimen name="_8dp">8dp</dimen>
+    <dimen name="hor">20dp</dimen>
+    <dimen name="magin_gv">3dp</dimen>
+    <dimen name="magin_style">10dp</dimen>
+    <dimen name="margin_contact">15dp</dimen>
+    <dimen name="p_info">8dp</dimen>
+    <dimen name="pa">14dp</dimen>
+    <dimen name="padding">45dp</dimen>
+    <dimen name="size_add_call">75dp</dimen>
+    <dimen name="size_im">45dp</dimen>
+    <dimen name="size_main_bottom">60dp</dimen>
+    <dimen name="ver">10dp</dimen>
+</resources>

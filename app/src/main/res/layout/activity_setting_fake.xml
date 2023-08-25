@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <com.uprisingscallscreen.theme.flashscreen.callertheme.custom.BoldText
+        android:id="@+id/tv_title_lag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="70dp"
+        android:paddingStart="@dimen/margin_contact"
+        android:paddingEnd="@dimen/margin_contact"
+        android:text="@string/fake"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <com.uprisingscallscreen.theme.flashscreen.callertheme.custom.MediumText
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center_horizontal"
+        android:text="@string/fake_content"
+        android:textColor="#000"
+        android:textSize="13sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/sel_btn_error"
+        android:gravity="center_horizontal"
+        android:hint="@string/enter_name"
+        android:padding="10dp"
+        android:textColor="@color/c_red"
+        android:textColorHint="@color/color_divider"
+        android:textSize="15sp" />
+
+    <com.uprisingscallscreen.theme.flashscreen.callertheme.custom.MediumText
+        android:id="@+id/tv_delay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center_horizontal"
+        android:text="@string/tv_delay"
+        android:textColor="#000"
+        android:textSize="13sp" />
+
+    <com.uprisingscallscreen.theme.flashscreen.callertheme.custom.MediumText
+        android:id="@+id/tv_sec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="@dimen/_10dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/c_red"
+        android:textSize="15sp" />
+
+    <SeekBar
+        android:id="@+id/sb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:max="60"
+        android:padding="10dp"
+        android:progressDrawable="@drawable/custom_seekbar"
+        android:splitTrack="false"
+        android:thumb="@drawable/custom_thumb" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.uprisingscallscreen.theme.flashscreen.callertheme.custom.MediumText
+        android:id="@+id/tv_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/sel_btn_error"
+        android:gravity="center_horizontal"
+        android:onClick="onClickFake"
+        android:padding="10dp"
+        android:text="@string/done"
+        android:textColor="@color/c_red"
+        android:textSize="15sp" />
+
+
+    <RelativeLayout
+        android:id="@+id/bannerAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>

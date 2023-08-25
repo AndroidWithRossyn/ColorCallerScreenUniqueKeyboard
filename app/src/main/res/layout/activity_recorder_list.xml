@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.uprisingscallscreen.theme.flashscreen.callertheme.custom.BoldText
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="@dimen/margin_contact"
+        android:paddingEnd="@dimen/margin_contact"
+        android:text="@string/recording_list"
+        android:textColor="#000"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/tv_title"
+        android:layout_alignBottom="@+id/tv_title"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <com.uprisingscallscreen.theme.flashscreen.callertheme.custom.BoldText
+            android:id="@+id/tv_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:onClick="onClick"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/choose"
+            android:textColor="@color/c_selected" />
+
+        <com.uprisingscallscreen.theme.flashscreen.callertheme.custom.BoldText
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:onClick="onClick"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/cancel"
+            android:textColor="@color/c_selected"
+            android:visibility="gone" />
+
+        <com.uprisingscallscreen.theme.flashscreen.callertheme.custom.BoldText
+            android:id="@+id/tv_del"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:onClick="onClick"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/delete"
+            android:textColor="@color/c_selected"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_title" />
+
+    <TextView
+        android:id="@+id/tv_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/empty"
+        android:textColor="#acacac"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+</RelativeLayout>
